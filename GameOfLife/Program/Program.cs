@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace Program
+namespace GameOfLife
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Reglas.Logica(LectorArchivo.TableroInicial("..\\glider.txt"));
+            Printer.Imprimir("..\\glider.txt");
         }
     }
 }

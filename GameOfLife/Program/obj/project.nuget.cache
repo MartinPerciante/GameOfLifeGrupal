@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h3Tu5hEPGta5/pIl0LKsyjTCpw4uyJYnE5Vc6tMqfC/ulb70lCcEAcGjHPZnTDvLqzwatvfF0jDUxy/bve+qvg==",
+  "dgSpecHash": "UiFxygyJlC62Q+nH00ATr7xw1NdZoZHE/lMxUDuOaPwV6sKmWZQnSSVll5NEKxLxnkbKrtrlAAK0I67bKvilhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrador\\Documents\\GitHub\\Kiosco\\GameOfLife\\Program\\Program.csproj",
+  "projectFilePath": "C:\\Users\\Administrador\\Documents\\GitHub\\GameOfLifeGrupal\\GameOfLife\\Program\\Program.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
