@@ -1,14 +1,16 @@
 using System;
+using System.Text;
+using System.Threading;
 
 namespace GameOfLife
 {
     public class Printer
     {
-        public static void Imprimir()
+        public static void Imprimir(string url)
         {
-            bool[,] b; //variable que representa el tablero
-            int width; //variabe que representa el ancho del tablero
-            int height; //variabe que representa altura del tablero
+            bool[,] b = LectorArchivo.TableroInicial(url);
+            int width = b.GetLength(0); //variabe que representa el ancho del tablero
+            int height = b.GetLength(1); //variabe que representa altura del tablero
             while (true)
             {
                 Console.Clear();
@@ -30,7 +32,7 @@ namespace GameOfLife
                 }
                 Console.WriteLine(s.ToString());
                 //=================================================
-                //Invocar método para calcular siguiente generación
+                b = Reglas.Logica(b); //Invocar método para calcular siguiente generación
                 //=================================================
                 Thread.Sleep(300);
             }

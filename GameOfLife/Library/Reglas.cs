@@ -4,9 +4,8 @@ namespace GameOfLife
 {
     public class Reglas
     {
-        public static Logica()
+        public static bool[,] Logica(bool[,] gameBoard)
         {
-            bool[,] gameBoard = LectorArchivo.TableroInicial();
             int boardWidth = gameBoard.GetLength(0);
             int boardHeight = gameBoard.GetLength(1);
 
@@ -52,10 +51,9 @@ namespace GameOfLife
                     }
                 }
             }
-            gameBoard = c;
             gameBoard = cloneboard;
             cloneboard = new bool[boardWidth, boardHeight];
-            return c;
+            return gameBoard;
         }
     }
 }

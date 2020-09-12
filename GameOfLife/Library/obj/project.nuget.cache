@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hzWuhVI+ONSJ4Q19fkmCVbSwKjp7z56jj8zh1/YQtfyB9PCiH/8mYu7zcGSrOyMRtqbq0BOtmEWyQrW3S7sthA==",
+  "dgSpecHash": "DFr3RfQbBDvCi9u2a0ZUzQBdEMhMMtcV8DLnsXHjoxQB/WCOuR+/P0npq6pm1ohFZYYKRFlj/BPsrnudwNgyNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrador\\Documents\\GitHub\\Kiosco\\GameOfLife\\Library\\Library.csproj",
+  "projectFilePath": "C:\\Users\\Administrador\\Documents\\GitHub\\GameOfLifeGrupal\\GameOfLife\\Library\\Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrador\\Documents\\GitHub\\Kiosco\\GameOfLife\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\Administrador\\Documents\\GitHub\\GameOfLifeGrupal\\GameOfLife\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "C:\\Users\\Administrador\\Documents\\GitHub\\Kiosco\\GameOfLife\\Library\\Library.csproj",
+      "projectPath": "C:\\Users\\Administrador\\Documents\\GitHub\\GameOfLifeGrupal\\GameOfLife\\Library\\Library.csproj",
       "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrador\\Documents\\GitHub\\Kiosco\\GameOfLife\\Library\\obj\\",
+      "outputPath": "C:\\Users\\Administrador\\Documents\\GitHub\\GameOfLifeGrupal\\GameOfLife\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config"

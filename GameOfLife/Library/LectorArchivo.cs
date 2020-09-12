@@ -1,12 +1,12 @@
 using System;
+using System.IO;
 
 namespace GameOfLife
 {
     public class LectorArchivo
     {
-        public static TableroInicial()
+        public static bool[,] TableroInicial(string url)
         {
-            string url = "glider.txt";
             string content = File.ReadAllText(url);
             string[] contentLines = content.Split('\n');
             bool[,] board = new bool[contentLines.Length, contentLines[0].Length];
